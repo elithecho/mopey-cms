@@ -3,6 +3,9 @@ import { GlobalConfig } from 'payload/types';
 const Nav: GlobalConfig = {
   slug: 'nav',
   label: 'Navbar',
+  access: {
+    read: () => true,
+  },
   fields: [
     {
       name: 'links',
