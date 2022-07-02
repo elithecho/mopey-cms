@@ -17,7 +17,6 @@ const HOME_QUERY = gql`
 
 export const get = async () => {
   const { home, banner } = await client.request(HOME_QUERY)
-  console.log(banner)
 
   return {
     body: {

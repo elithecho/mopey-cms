@@ -16,11 +16,11 @@ const Nav: GlobalConfig = {
       },
       fields: [
         {
-          name: 'link',
+          name: 'text',
           type: 'text',
         },
         {
-          name: 'text',
+          name: 'link',
           type: 'text',
         },
         {

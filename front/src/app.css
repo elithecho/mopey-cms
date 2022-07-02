@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .post h1,
+  .post h2,
+  .post h3 {
+    @apply font-bold;
+  }
+
+  .post h1 {
+    @apply text-4xl;
+  }
+}

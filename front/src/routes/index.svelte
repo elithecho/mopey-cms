@@ -1,7 +1,7 @@
 <script>
   export let home
-  export let banner
 </script>
 
-<h1>{home.Text}</h1>
-<h1>Banner ---- {banner.text}</h1>
+<div class="container mx-auto py-8 px-2">
+  <h1 class="text-4xl">{home.Text}</h1>
+</div>
